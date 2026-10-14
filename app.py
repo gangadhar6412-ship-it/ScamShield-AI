@@ -158,6 +158,86 @@ st.markdown(
 
     footer {visibility: hidden;}
     </style>
+    
+/* ScamShield AI — readable light theme */
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background: #F4F7FC !important;
+    color: #172033 !important;
+}
+
+[data-testid="stHeader"] {
+    background: #F4F7FC !important;
+}
+
+[data-testid="stMarkdownContainer"],
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li,
+[data-testid="stMarkdownContainer"] span,
+[data-testid="stMarkdownContainer"] label,
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp h4,
+.stApp label,
+.stApp .stCaption {
+    color: #172033 !important;
+}
+
+[data-testid="stVerticalBlockBorderWrapper"],
+[data-testid="stForm"],
+[data-testid="stExpander"] {
+    background-color: #FFFFFF !important;
+    border-color: #DCE4EF !important;
+}
+
+.stTextInput input,
+.stTextArea textarea,
+.stSelectbox div[data-baseweb="select"],
+.stNumberInput input {
+    background-color: #FFFFFF !important;
+    color: #172033 !important;
+    border-color: #CBD5E1 !important;
+}
+
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: #64748B !important;
+    opacity: 1 !important;
+}
+
+.stButton button,
+.stDownloadButton button {
+    background-color: #126E82 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #126E82 !important;
+    border-radius: 10px !important;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover {
+    background-color: #0D5667 !important;
+    color: #FFFFFF !important;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #172033;
+}
+
+[data-testid="stAlert"] {
+    color: #172033 !important;
+}
+
+[data-testid="stCode"] {
+    background-color: #F1F5F9 !important;
+    color: #172033 !important;
+}
+
     """,
     unsafe_allow_html=True,
 )
